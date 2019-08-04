@@ -1,6 +1,6 @@
 # uDay
 
-> My marvelous Nuxt.js project
+> Streamlined patient screening tools for doctors.
 
 ## Build Setup
 
