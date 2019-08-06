@@ -15,7 +15,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/uday-favicon.ico?v=2' }
+      { rel: 'icon', type: 'image/x-icon', href: '/uday-favicon.png?v=2' }
     ]
   },
 
