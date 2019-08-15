@@ -70,7 +70,7 @@ export default {
 }
 
 .btn-link:hover {
-  color: #bf740b!important;
+  color: #d4810d!important;
   text-decoration: none;
 }
 
