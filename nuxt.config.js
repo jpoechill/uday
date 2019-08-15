@@ -15,7 +15,28 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/uday-favicon.png?v=2' }
+      { rel: 'icon', type: 'image/x-icon', href: '/uday-favicon.png?v=2' },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      }
+    ],
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
+      },
+      {
+        src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
+      },
+      {
+        src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'
+      },
+      {
+        src: "https://use.fontawesome.com/releases/v5.0.10/js/all.js",
+        integrity: "sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+",
+        crossorigin: "anonymous"
+      }
     ]
   },
 
@@ -42,8 +63,6 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt',
     '@nuxtjs/pwa'
   ],
   /*
