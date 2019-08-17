@@ -1,8 +1,8 @@
 <template>
   <section>
     <!-- Top Border -->
-    <div class="w-100 bg-uday-orange pt-3">
-      &nbsp;
+    <div class="w-100 bg-uday-orange p-2 text-center text-white font-weight-bold">
+      PROTOTYPE: Last updated Aug 17th, 2019.
     </div>
 
     <!-- Header -->
