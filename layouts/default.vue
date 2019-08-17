@@ -23,4 +23,19 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+a {
+  color: #F6960F;
+}
+
+a:hover {
+  color: #d4810d;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>

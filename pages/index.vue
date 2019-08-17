@@ -6,46 +6,43 @@
     </div>
 
     <!-- Header -->
-    <div class="container text-center mt-3">
+    <div class="container text-center mt-1">
       <div class="row">
         <div class="offset-md-2 col-md-8">
-          <img src="/uday-logo-lrg.png" class="w-50 p-2" alt="Uday Logo">
+          <nuxt-link to="/">
+            <img src="/uday-logo-lrg.png" class="w-50 p-2" alt="Uday Logo">
+          </nuxt-link>
           <h5>
             Uday: Electronic Patient Records
           </h5>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, sapiente nostrum a facere ut eligendi maiores atque nesciunt, ex aliquid pariatur voluptatibus eius. Exercitationem eos natus provident omnis sed? Alias aut repudiandae repellendus, molestiae sunt similique beatae debitis commodi incidunt facilis a facere ullam est eligendi rerum pariatur quod corrupti.  
+          <div class="mb-3">
+            <ul id="footer-links" class="p-0 mb-0">
+              <li>
+                <nuxt-link to="/about">About</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/">Survey</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/team">Team</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/contact">Contact</nuxt-link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Body -->
-    <div class="container">
-      <div class="row">
-        <div class="offset-md-2 col-md-8">
-          <a href="https://forms.gle/mqYW3mprHcfuz7Qy8" class="text-decoration-none">
-            <div class="text-uday-orange btn-link w-100 btn-bg-light text-center p-5 mt-5 btn-rounded-lrg">
-              <h3 class="font-weight-bold">
-                Take the Survey
-              </h3>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
+    <!-- Start Nuxt Body -->
+    
+    <nuxt/>
+    
+    <!--  End -->
+    
     <!-- Footer -->
-    <div class="container mt-5 text-center">
-      <ul id="footer-links" class="p-0 mb-0">
-        <li>
-          About 
-        </li>
-        <li>
-          Team
-        </li>
-        <li>
-          Contact
-        </li>
-      </ul>
+    <div class="container mb-3 text-center">
       Uday 2.0 © 2019
     </div>
   </section>
