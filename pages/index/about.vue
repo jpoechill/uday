@@ -5,7 +5,7 @@
             <div class="w-100">
                 <img src="/uday-field-team.png" class="w-100 mb-3" alt="">
             </div>
-            Field Team, 2019
+            Field Team
         </div>
     </div>
 </div>
