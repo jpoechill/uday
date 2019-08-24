@@ -1,16 +1,21 @@
 <template>
   <div class="container">
+    <div class="row">
+        <div class="col-md-12 mt-4 text-center">
+            Sign Up
+        </div>
+    </div>
     <div class="row mb-4">
-        <div class="offset-md-2 col-md-8">
-            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore alias enim maxime dolor doloremque magni excepturi voluptas ducimus quidem provident, eos aperiam illo, unde quaerat facere consectetur omnis suscipit.
-            <br><br> -->
-            Name <br>
-            <input type="text" class="w-100 mb-3">
+        <div class="offset-md-4 col-md-4 pt-3 mb-5">
+            <!-- Name <br>
+            <input type="text" class="w-100 mb-3"> -->
             Email <br>
             <input type="text" class="w-100 mb-3">
-            Message <br>
-            <textarea rows="5" class="w-100 mb-3"></textarea>
-            <button class="p-2 w-100">Send Message</button>
+            Password <br>
+            <input type="text" class="w-100 mb-3">
+            Confirm Password <br>
+            <input type="text" class="w-100 mb-3">
+            <button class="p-2 w-100">Sign Up</button>
         </div>
     </div>
 </div>
